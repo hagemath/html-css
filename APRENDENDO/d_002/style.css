@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #53f58cce;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #038C3E;
+    text-align: center;
+    color: white;
+    width: auto;
+    padding: 5px;
+}
+
+#primeiro_titulo{
+    margin: 5px; 
+}
+
+#segundo_titulo{
+    margin: 10px;
+}
+
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+#principal{
+    text-align: center;
+    color: #02735E;
+}
+
+.controle_link_cabecario{
+    margin: 5px;
+}
+
+.controle_link_cabecario > .link-cabecario{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.controle_link_cabecario > .link-cabecario:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: white;
+    width: 900px;
+    margin: auto;
+
+    
+}
+
+.area_video{
+    background-color: #1A5C38;
+    height: 500px;
+}
+
+#apresentacao_sem_video{
+    padding: 15px;
+}
+
+.controle_video{
+    margin-left: 30px; 
+    margin-top: 15px; 
+    width: 850px; 
+    height: 470px; 
+}
+
+.titulo_segundo{
+    margin-top: 10px;
+}
+
+p{
+    text-align: justify;
+}
+
+.controle_imagem{
+    text-align: center;
+}
+
+.paragrafos{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#extra{
+    padding: 15px;
+}
+
+.controle_extra_destaque{
+    background-color: #C5EBD6;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+footer{
+    background-color: #1A5C38;
+    color: white;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.texto_footer{
+    text-align: center;
+}

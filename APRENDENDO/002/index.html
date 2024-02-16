@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 730px)" srcset="imagens/foto_p.png" type="image/png">
+        <source media="(max-width: 1030px)" srcset="imagens/foto_m.png" type="image/png">
+        <img src="imagens/foto_g.png" alt="imagem flexível">
+    </picture>
+    <h1>Vamos aprender a reproduzir audios no HTML5</h1>
+    <p>Para reproduzir audio, usamos a tag &lt;audio&gt; e escolhemos o audio que queremos, colocando um "Controls autoplay" </p>
+    <p>Mas para que funcione em todos os tipos de explores, precisamos fazer algumas coisas diferentes... <br> usamos a tag &lt;audio&gt; damos um enter e entre o audio e /audio, usamos o &lt;source src&gt;, colocamos o audio que queremos reproduzir, o type é "audio/mpeg(mp3), ogg ou wav"</p>
+    <h1>Agora vamos trabalhar com vídeos</h1>
+    <p>Esse video está hospedado no meu próprio servidor</p>
+    <video poster="imagens/foto_g.png" controls>
+        <source src="mp4" type="">
+        <source src="m4v" type="">
+        <source src="webm" type="">
+        <source src="ogv" type="">
+    </video>
+    <h1>inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=lfFpZtBg75VqDinO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>
