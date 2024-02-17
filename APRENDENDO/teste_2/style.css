@@ -83,6 +83,12 @@ main{
     line-height: 2em;
 }
 
+.imagem{
+    display: block;
+    margin: auto;
+    
+}
+
 .controle-imagem{
     display: block;
     margin: auto;
