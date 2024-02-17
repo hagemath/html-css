@@ -83,7 +83,7 @@ main{
     line-height: 2em;
 }
 
-.imagem{
+.controle-imagem > .imagem{
     width: 500px;
     display: block;
     margin: auto;
