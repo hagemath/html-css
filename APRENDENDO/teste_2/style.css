@@ -84,9 +84,10 @@ main{
 }
 
 .imagem{
+    width: 500px;
     display: block;
     margin: auto;
-    
+
 }
 
 .controle-imagem{
